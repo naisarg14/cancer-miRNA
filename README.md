@@ -1,3 +1,6 @@
+# Serum-MiR-CanPred: A Deep Learning Framework for Pan-Cancer Classification and In Silico Identification of Pharmacologically Relevant Biomarkers from Circulating miRNAs
+
+
 ## Feature Selection Scripts
 - FS_lasso.py – Selects top 100 features using Recursive Feature Elimination (RFE) with a Lasso estimator.
 - FS_LGBM.py – Selects top 100 features using RFE with a LightGBM estimator.
@@ -18,3 +21,9 @@
 - mlp_analysis.py – Analyzes MLP model performance using various general metrics.
 - mlp_shap.py – Computes and visualizes SHAP summary and heatmap plots for MLP feature importance.
 - mlp_auc.py – Computes and visualizes the AUC (Area Under Curve) for MLP model predictions.
+- venn.py - Generates Venn Diagrams for the given selected features .txt files
+- heatmap.py - Generated a heatmap for the given data file using seaborn
+
+## Other Scripts
+- batch_correction.py - Uses pycombat to perform batch correction on the given data matrix
+- extract_from_file.py - Extracts the expression data from individual sample files and generates a csv file
