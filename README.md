@@ -1,5 +1,7 @@
 # Serum-MiR-CanPred: A Deep Learning Framework for Pan-Cancer Classification and In Silico Identification of Pharmacologically Relevant Biomarkers from Circulating miRNAs
 
+## Abstract
+This study presents Serum-MiR-CanPred, a machine learning framework that leverages serum microRNA (miRNA) expression data to non-invasively diagnose 13 different cancer types. Using a multilayer perceptron (MLP) model and SHAP for interpretability, the method achieved high accuracy (AUC 99.87%) and identified key discriminatory miRNAs, including hsa-miR-5100. Literature validation and molecular docking revealed that AC1MMYR2, a compound targeting the Dicer site, binds stably to pre-miR-5100, suggesting therapeutic potential. This integrative approach demonstrates the dual utility of circulating miRNAs as diagnostic biomarkers and therapeutic targets, offering a promising direction for AI-driven, non-invasive cancer diagnostics and drug discovery.
 
 ## Feature Selection Scripts
 - FS_lasso.py – Selects top 100 features using Recursive Feature Elimination (RFE) with a Lasso estimator.
