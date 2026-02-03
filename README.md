@@ -1,5 +1,33 @@
 # Serum-MiR-CanPred: A Deep Learning Framework for Pan-Cancer Classification and In Silico Identification of Pharmacologically Relevant Biomarkers from Circulating miRNAs
 
+## Publication
+
+**Paper Title:** Serum-MiR-CanPred: deep learning framework for pan-cancer classification and miRNA-targeted drug discovery
+
+**Journal:** RNA Biology  
+**Year:** 2025  
+**Volume:** 22, Number 1, Pages 1-19  
+**DOI:** [10.1080/15476286.2025.2577433](https://doi.org/10.1080/15476286.2025.2577433)  
+**PMID:** 41168129
+
+### Citation
+
+```bibtex
+@article{Patel31122025,
+author = {Naisarg Patel and Ankita Lawarde and Suhas Manikant Surisetti and Premkumar Thiruselvam and Prakash Lingasamy and Vino Sundararajan and Sajitha Lulu S and Andres Salumets and Vijayachitra Modhukur},
+title = {Serum-MiR-CanPred: deep learning framework for pan-cancer classification and miRNA-targeted drug discovery},
+journal = {RNA Biology},
+volume = {22},
+number = {1},
+pages = {1--19},
+year = {2025},
+publisher = {Taylor \& Francis},
+doi = {10.1080/15476286.2025.2577433},
+note = {PMID: 41168129},
+URL = {https://doi.org/10.1080/15476286.2025.2577433}
+}
+```
+
 ## Abstract
 This study presents Serum-MiR-CanPred, a machine learning framework that leverages serum microRNA (miRNA) expression data to non-invasively diagnose 13 different cancer types. Using a multilayer perceptron (MLP) model and SHAP for interpretability, the method achieved high accuracy (AUC 99.87%) and identified key discriminatory miRNAs, including hsa-miR-5100. Literature validation and molecular docking revealed that AC1MMYR2, a compound targeting the Dicer site, binds stably to pre-miR-5100, suggesting therapeutic potential. This integrative approach demonstrates the dual utility of circulating miRNAs as diagnostic biomarkers and therapeutic targets, offering a promising direction for AI-driven, non-invasive cancer diagnostics and drug discovery.
 
